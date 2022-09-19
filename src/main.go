@@ -1,7 +1,11 @@
 package main
 
-import "fmt"
+import (
+	"github.com/chegde20121/GoHandsOn/src/handlers"
+)
 
 func main() {
-	fmt.Println("Hello world")
+	//LinkedList
+	//handlers.HandleLinkedList()
+	handlers.HandleDoublyLinkedList()
 }
